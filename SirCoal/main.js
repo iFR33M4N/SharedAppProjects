@@ -1,6 +1,8 @@
 import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import {} from 'react-native-elements';
+import {} from 'react-navigation';
 
 class App extends React.Component {
   render() {
