@@ -22,7 +22,7 @@ class App extends React.Component {
   componentDidMount() {
     persistStore(this.store, { storage: AsyncStorage });
   }
-  render() {
+   render() {
     return (
       <Provider store={this.store}>
         <AppWithNavigationState />
